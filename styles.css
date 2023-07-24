@@ -1,20 +1,18 @@
-.flex-container {
+.header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /* To create space between logo and links */
+    align-items: center; /* To vertically center align items */
+    padding: 10px; /* Optional: Add some padding to the header */
 }
 
 .links {
     display: flex;
-    gap: 8px;
-    padding-right: 25px;
+    gap: 10px; /* Optional: Add some space between the links */
 }
 
-li {
-    list-style: none;
-}
-
-.navbar {
-    display: flex;
-    
+/* Optional: Style the links as per your design */
+.links p {
+    margin: 0; /* Remove default paragraph margins */
+    padding: 5px 10px; /* Add some padding to the links */
+    background-color: #f0f0f0;
 }
