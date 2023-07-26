@@ -1,8 +1,17 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between; /* To create space between logo and links */
     align-items: center; /* To vertically center align items */
-    padding: 10px; /* Optional: Add some padding to the header */
+    padding-left: 50px;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .links {
@@ -14,5 +23,62 @@
 .links p {
     margin: 0; /* Remove default paragraph margins */
     padding: 5px 10px; /* Add some padding to the links */
-    background-color: #f0f0f0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 30px 50px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hleft {
+    width: 400px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero p {
+    color: #e5e7eb;
+}
+
+.hleft button {
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #3882f6;
+    color: #e5e7eb;  
+    border: #3882f6;
+}
+
+.sky {
+    width:600px;
+    height: auto;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.box {
+    border: 3px solid #3882f6;
+    height: 100px;
+    width: 100px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
 }
